@@ -1,5 +1,5 @@
 # FW_PA24N2V2I
-Firmware for STM8L152C8T6 mounted on preamplefier PA24N2V2I, in project used USART1, ADC, DAC, I2C;
+project used USART1, ADC, DAC, I2C;
 
 USART1 for communicate with client (hope to make application on QT for Windows and Linux);
 ADC for monitoring thresholds of the preamp, monitoring for source voltage (+2.5V);
@@ -12,6 +12,4 @@ still used 8 bit resolution // have to improve to 12 bit;
 I2C:
 in case a slave device not responded the mcu gets stuck // there are no timers for interrupts waiting the answer;
 
-
-Would appreciate any comments or suggestions that will help to improve code;
-Provided by Mikhail B. 2016 // mikhail466@gmail.com
+ Mikhail B. 2016
